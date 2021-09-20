@@ -91,7 +91,7 @@ h6 {
    @media only screen and (max-width : 1050px) {
     #logo {
       max-width: 250px;
-      padding: 50px;
+      padding: 20px 0px 20px 0px;
       margin-left: 10%;
       align-items: center;
     }
@@ -121,7 +121,7 @@ h6 {
         padding: 50px;
         align-items: center;
         margin: 0px 37.5px;
-        padding: 20px;
+        padding: 20px 20px 0px;
         }
   
         #company {
@@ -131,7 +131,7 @@ h6 {
         }
   
         #number {
-          font-size: 50%;
+          font-size: 70%;
         }
   
   }
@@ -235,9 +235,9 @@ h6 {
      .my-slick-carousel .carousel-content .btn {
         padding: .8em 1.4em;
     }
-     .my-slick-carousel img {
-        height: 370px;
-    }
+    /* .my-slick-carousel img {
+        height: 450px;
+    }  */
      .my-slick-carousel .carousel-content {
         padding: .5em 1em 0 2em;
     }
@@ -278,7 +278,7 @@ h6 {
 
 /* ================our services=============== */
 
-.container {}
+
 
 section#one {
     color: #222;
@@ -661,7 +661,7 @@ section#three .contact form>* {
     border: .1em solid #999999;
     font-family: 'Raleway';
     font-size: .3rem;
-    padding: .7em;
+    padding: 20px;
     margin: .3em 0;
     width: 100%;
 }
@@ -706,6 +706,7 @@ section#three .contact form .btn {
     }
     section#three .container .box50 {
         width: 48%;
+        padding: 20px;
     }
     section#three .container form {
         display: flex;
