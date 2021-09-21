@@ -88,26 +88,27 @@ h6 {
   margin-top: 70px;
    }
 
-   @media only screen and (max-width : 1050px) {
+   @media only screen and (max-width : 1500px) {
     #logo {
-      max-width: 250px;
+      max-width: 300px;
       padding: 20px 0px 20px 0px;
-      margin-left: 10%;
+      margin-left: 15%;
       align-items: center;
     }
   
     #company {
-        position: relative;
-      height: 50px;
-      margin-bottom: 10%;
+    position: relative;
+      height: 80px;
+      margin-bottom: 5%;
      
     }
   
     #number {
-      font-size: 50%;
+      font-size: 80%;
     }
   
   }
+
   
       @media only screen and (max-width : 420px) {
         
@@ -601,6 +602,7 @@ section#two .slider .slide:hover .overlay-content .btn {
 
 section#three {
     margin: 1vw;
+    padding: 20px;
 }
 
 section#three h2 {
@@ -694,7 +696,8 @@ section#three .contact form .btn {
     }
 }
 
-@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 480px) {
+}
 
 
 /* Small Devices, Tablets */
@@ -718,6 +721,7 @@ section#three .contact form .btn {
         margin: .7em 0;
         resize: none;
     }
+
 }
 
 
@@ -738,6 +742,7 @@ section#three .contact form .btn {
     color: #fff;
     font-size: .3rem;
     line-height: 2.4em;
+    padding: 20px;
 }
 
 #four .wrapper {
