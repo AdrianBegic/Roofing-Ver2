@@ -92,14 +92,15 @@ h6 {
     #logo {
       max-width: 300px;
       padding: 20px 0px 20px 0px;
-      margin-left: 15%;
-      align-items: center;
+      margin: 0 auto;
+      display: block;
     }
   
     #company {
     position: relative;
       height: 80px;
-      margin-bottom: 5%;
+      margin: 0 auto;
+      display: block;
      
     }
   
@@ -110,7 +111,7 @@ h6 {
   }
 
   
-      @media only screen and (max-width : 420px) {
+      @media only screen and (max-width : 428px) {
         
         .header2 {
           align-items: flex-end;
